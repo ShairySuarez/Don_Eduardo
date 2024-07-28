@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina web de proyecto">
+        <meta name="author" content="Jhon Rodriguez">
+        <title>Don Eduardo/Menu</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+
+          input[type="radio"] {
+            width: 20px;
+            height: 20px;
+          } 
+
+          label {
+              font-size: 18px;
+              margin-right: 20px;
+          }
+
+          body {
+              margin: 0;
+              background: url('Fondo.jpg') no-repeat center center fixed;
+              background-size: cover;
+              background-color: rgba(0, 0, 0, 0.5);
+              color: white;
+          }
+          @media (max-width: 767px) {
+            body {
+                background-position: center center;
+            }
+            .custom-width {
+                width: 95%; 
+            }
+          }
+          p{
+            font-family: 'Roboto', sans-serif;
+          }
+
+          img {
+            width: 250px; /* Establece un ancho específico en píxeles */
+            height: auto; /* La altura se ajustará automáticamente para mantener la proporción de la imagen */
+            border-radius: 10px;
+            border: 2px solid white;
+          }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">DON EDUARDO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="mapa.html">Localizanos</a>
+                      </li>
+                    </ul>
+                    <div class="d-flex">
+                      <a class="nav-link fs-5" href="" style="color: white;">Contactanos <i class="bi bi-whatsapp" style="color: green;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <br>
+        <main role="main" class="container">
+          <div class="container">
+            <form id="categoryForm" class="text-center">
+              <input type="radio" id="bebidas" name="category" value="bebidas" checked>
+              <label for="bebidas">BEBIDAS</label>
+              <input type="radio" id="comida" name="category" value="comida">
+              <label for="comida">COMIDA</label>
+            </form>
+          <br>
+            <div id="Bebidas">
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="Michelada.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Michelada</p>
+                </div>
+                <div class="col">
+                  <img src="Limonada.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Limonada</p>
+                </div>
+                <div class="col">
+                  <img src="Batidos.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Batidos de Fruta</p>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="xd.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Helados</p>
+                </div>
+                <div class="col">
+                  <img src="xd.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Cervezas</p>
+                </div>
+                <div class="col">
+                  <img src="CafeAmericano.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Cafe Americano</p>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="Capuccino.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Capuccino</p>
+                </div>
+                <div class="col">
+                  <img src="Chocolate.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Chocolate</p>
+                </div>
+                <div class="col">
+                  <img src="Orchata.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Agua de Orchata</p>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="TeAromatico.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Té aromatico</p>
+                  </div>
+                <div class="col">
+                  <img src="Cuba.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Cuba</p>
+                </div>
+                <div class="col">
+                  <img src="PinaColada.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Piña Colada</p>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="WiskyCafe.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Whisky de Cafe</p>
+                </div>
+                <div class="col">
+                  <img src="margarita.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Margarita</p>
+                </div>
+                <div class="col">
+                  <img src="CoctelFresa.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Coctel de Fresa</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="Comida" style="display:none">
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="Picadita.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Picadita De Mariscos</p>
+                  
+                </div>
+                <div class="col">
+                  <img src="MicheladaCamaron.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Michelada Con Camarones</p>
+                </div>
+                <div class="col">
+                  <img src="Tortilla.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Tortilla Española</p>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="PataconMarisco.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Patacones Rellenos De Camaron</p>
+                </div>
+                <div class="col">
+                  <img src="Sanduche.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">sándwich</p>
+                </div>
+                <div class="col">
+                  <img src="PataconQueso.jpg" alt="Bar Don Eduardo" class="d-block mx-auto">
+                  <p class="text-center">Patacones Con Queso</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <script>
+            document.getElementById('categoryForm').addEventListener('change', function(event) {
+              var selectedCategory = document.querySelector('input[name="category"]:checked').value;
+              if (selectedCategory === 'bebidas') {
+                  document.getElementById('Bebidas').style.display = 'block';
+                  document.getElementById('Comida').style.display = 'none';
+              } else {
+                  document.getElementById('Bebidas').style.display = 'none';
+                  document.getElementById('Comida').style.display = 'block';
+              }
+          });
+          </script>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
